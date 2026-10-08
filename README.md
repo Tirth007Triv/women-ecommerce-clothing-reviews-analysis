@@ -52,8 +52,8 @@ women-ecommerce-clothing-reviews-analysis/
 ```
 
 ## Team
-- Student 1: __________________
-- Student 2: __________________
+- Student 1: Tirth Trivedi — IU2441230646
+- Student 2: Dhairya Shah — IU2441230652
 
 ## Status
 Project setup and proposal stage.
