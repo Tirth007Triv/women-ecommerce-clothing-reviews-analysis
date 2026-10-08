@@ -8,7 +8,7 @@ This project analyzes customer reviews of women's clothing products using Python
 Source: Kaggle  
 https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
 
-The dataset contains 23,486 reviews and 10 features.
+The dataset contains 23,485 reviews and 10 features.
 
 ## Objectives
 - Analyze customer rating distribution.
