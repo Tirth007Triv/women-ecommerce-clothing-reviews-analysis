@@ -1,59 +1,28 @@
 # Women's E-Commerce Clothing Reviews Analysis
 
-## Project Overview
-This project analyzes customer reviews of women's clothing products using Python. It focuses on customer ratings, recommendations, clothing categories, review sentiment, and common words in customer feedback.
+**Team**
+- Tirth Trivedi — IU2441230646
+- Dhairya Shah — IU2441230652
 
-## Dataset
-**Women's E-Commerce Clothing Reviews**  
-Source: Kaggle  
-https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
+## Project goal
+Clean and analyze customer reviews of women's clothing using Python. The project covers missing values, duplicate detection, data types, outlier screening, eight visualizations, and a short insights report.
 
-The dataset contains 23,485 reviews and 10 features.
+## Contents
+- `dataset/` — original Kaggle dataset (add the CSV here if it is not already present)
+- `notebooks/Womens_Clothing_Reviews_Analysis.ipynb` — runnable analysis notebook
+- `src/analyze_reviews.py` — analysis script
+- `graphs/` — eight generated charts (created by the script)
+- `reports/data_cleaning_log.md` — cleaning decisions and validation
+- `reports/insights_report.md` — findings calculated from the supplied dataset
+- `requirements.txt` — Python dependencies
 
-## Objectives
-- Analyze customer rating distribution.
-- Compare recommended and non-recommended products.
-- Compare average ratings across departments and clothing categories.
-- Explore age and rating relationships.
-- Perform basic sentiment analysis on review text.
-- Identify common words in customer reviews.
-- Present findings through clear visualizations.
-
-## Planned Visualizations
-- Rating distribution bar chart
-- Recommended vs. not recommended chart
-- Average rating by department
-- Average rating by clothing category
-- Age vs. rating scatter plot
-- Sentiment distribution
-- Review word cloud
-- Correlation heatmap
-
-## Tools and Libraries
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- NLTK
-- WordCloud
-- Scikit-learn
-- Jupyter Notebook / Google Colab
-
-## Project Structure
-```
-women-ecommerce-clothing-reviews-analysis/
-├── dataset/
-├── notebooks/
-├── graphs/
-├── src/
-├── README.md
-└── requirements.txt
+## Run
+Install dependencies with `pip install -r requirements.txt`. Put the original CSV named `Womens Clothing E-Commerce Reviews.csv` inside `dataset/`, then run:
+```bash
+python src/analyze_reviews.py
 ```
 
-## Team
-- Student 1: Tirth Trivedi — IU2441230646
-- Student 2: Dhairya Shah — IU2441230652
+## Dataset source
+Kaggle: https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
 
-## Status
-Project setup and proposal stage.
+This is descriptive analysis of the supplied dataset, not causal analysis or a representative survey of all shoppers.
